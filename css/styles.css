@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  display: flex;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #fbfbfb;
+  color: #0c0c0c;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+li {
+  list-style: none;
+}
+.sectiontherdbackar {
+  background-image: url(../images/sectiontherdbackar.png);
+}
+
+.icon-svg {
+  fill: #0c0c0c;
+}
+.icon-svg-a {
+  display: flex;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid #0c0c0c1a;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icon-svg {
+  fill: #fbfbfb;
+}
+.footer-icon-a {
+  background-color: #0c0c0c;
+  display: flex;
+  width: 36px;
+  height: 36px;
+  border-radius: 10px;
+  border: 1px solid #fbfbfb1a;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.users-icons {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid #fbfbfb;
+  background-color: #f3f3f3;
+  margin-left: -20px;
+}
+
+.users-icons-img {
+  border-radius: 50%;
+  width: 100%;
+}
+
+.users-icons-cards {
+  display: flex;
+  flex-direction: row;
+}
